@@ -32,6 +32,7 @@ import com.microsoft.applicationinsights.telemetry.SessionState;
 public class Globals {
 	
 	// TODO Another line
+	//TODO
 
     // JabRef version info
     public static final BuildInfo BUILD_INFO = new BuildInfo();
