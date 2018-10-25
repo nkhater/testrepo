@@ -33,9 +33,6 @@ public class Globals {
 	
 	// TODO Another line
 	//TODO
-	// TODO
-	// TODO
-	// TODO
 
     // JabRef version info
     public static final BuildInfo BUILD_INFO = new BuildInfo();
