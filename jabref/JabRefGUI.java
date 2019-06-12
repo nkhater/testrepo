@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
 
 public class JabRefGUI {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(JabRefGUI.class);
+    public static final Logger LOGGER = LoggerFactory.getLogger(JabRefGUI.class);
 
     private static JabRefFrame mainFrame;
 
@@ -44,7 +44,7 @@ public class JabRefGUI {
     private final List<ParserResult> failed = new ArrayList<>();
     private final List<ParserResult> toOpenTab = new ArrayList<>();
     private final DialogService dialogService;
-
+    // TODO
     private final String focusedFile;
 
     public JabRefGUI(Stage mainStage, List<ParserResult> argsDatabases, boolean isBlank) {
