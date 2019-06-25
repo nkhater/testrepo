@@ -163,7 +163,7 @@ public class BibEntryWriter {
             try {
                 out.write(fieldFormatter.format(field.get(), name));
                 out.write(',' + OS.NEWLINE);
-            } catch (InvalidFieldValueException ex) {
+            } catch (Exception ex) {
                 throw new IOException("Error in field '" + name + "': " + ex.getMessage(), ex);
             }
         }
