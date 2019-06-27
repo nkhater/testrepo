@@ -23,8 +23,8 @@ import org.jabref.model.strings.StringUtil;
 
 public class BibEntryWriter {
 
-    public final LatexFieldFormatter fieldFormatter;
-    public final boolean Write;
+    private final LatexFieldFormatter fieldFormatter;
+    private final boolean write;
 
 
     public BibEntryWriter(LatexFieldFormatter fieldFormatter, boolean write) {
@@ -163,7 +163,7 @@ public class BibEntryWriter {
             try {
                 out.write(fieldFormatter.format(field.get(), name));
                 out.write(',' + OS.NEWLINE);
-            } catch (Exception ex) {
+            } catch (InvalidFieldValueException ex) {
                 throw new IOException("Error in field '" + name + "': " + ex.getMessage(), ex);
             }
         }
