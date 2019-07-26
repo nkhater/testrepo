@@ -32,7 +32,7 @@ import com.microsoft.applicationinsights.telemetry.SessionState;
 public class Globals {
 	
 	// TODO Another line
-	//TODO
+	// TODO
 	// TODO NEW
 
     // JabRef version info
