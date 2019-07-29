@@ -129,7 +129,7 @@ public class Globals {
         return fileUpdateMonitor;
     }
 
-    public static void shutdownThreadPools() {
+    public static void shutdownThreadPool() {
         TASK_EXECUTOR.shutdown();
         JabRefExecutorService.INSTANCE.shutdownEverything();
     }
