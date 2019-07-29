@@ -114,6 +114,7 @@ public class JabRefGUI {
                         pr.getDatabase().clearSharedDatabaseID();
 
                         LOGGER.error("Connection error", e);
+                        LOGGER.error("Second Connection error", e);
                         dialogService.showErrorDialogAndWait(
                                                              Localization.lang("Connection error"),
                                                              Localization.lang("A local copy will be opened."),
