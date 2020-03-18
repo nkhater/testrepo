@@ -23,7 +23,6 @@ import org.jabref.model.strings.StringUtil;
 
 public class BibEntryWriter {
 
-    // TODO
     private final LatexFieldFormatter fieldFormatter;
     public final boolean write;
 
