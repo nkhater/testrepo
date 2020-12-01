@@ -30,9 +30,6 @@ import com.microsoft.applicationinsights.internal.shutdown.SDKShutdownActivity;
 import com.microsoft.applicationinsights.telemetry.SessionState;
 
 public class Globals {
-	
-	// TODO Another line
-	// TODO Added a ToDo
 
     // JabRef version info
     public static final BuildInfo BUILD_INFO = new BuildInfo();
