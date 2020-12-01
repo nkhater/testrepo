@@ -32,7 +32,7 @@ import org.jabref.preferences.JabRefPreferences;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+//TODO
 public class JabRefGUI {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(JabRefGUI.class);
@@ -44,7 +44,7 @@ public class JabRefGUI {
     private final List<ParserResult> failed = new ArrayList<>();
     private final List<ParserResult> toOpenTab = new ArrayList<>();
     private final DialogService dialogService;
-
+    
     private final String focusedFile;
 
     public JabRefGUI(Stage mainStage, List<ParserResult> argsDatabases, boolean isBlank) {
@@ -114,6 +114,7 @@ public class JabRefGUI {
                         pr.getDatabase().clearSharedDatabaseID();
 
                         LOGGER.error("Connection error", e);
+                        LOGGER.error("Second Connection error", e);
                         dialogService.showErrorDialogAndWait(
                                                              Localization.lang("Connection error"),
                                                              Localization.lang("A local copy will be opened."),
