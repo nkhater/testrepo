@@ -29,9 +29,10 @@ import com.microsoft.applicationinsights.TelemetryConfiguration;
 import com.microsoft.applicationinsights.internal.shutdown.SDKShutdownActivity;
 import com.microsoft.applicationinsights.telemetry.SessionState;
 
+/**
+ * Globals class.
+ */
 public class Globals {
-	
-    // TODO NEW
 
     // JabRef version info
     public static final BuildInfo BUILD_INFO = new BuildInfo();
