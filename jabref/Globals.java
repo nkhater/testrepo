@@ -30,6 +30,8 @@ import com.microsoft.applicationinsights.internal.shutdown.SDKShutdownActivity;
 import com.microsoft.applicationinsights.telemetry.SessionState;
 
 public class Globals {
+	
+    // TODO NEW
 
     // JabRef version info
     public static final BuildInfo BUILD_INFO = new BuildInfo();
@@ -125,7 +127,8 @@ public class Globals {
         return fileUpdateMonitor;
     }
 
-    public static void shutdownThreadPools() {
+    // TODO
+    public static void shutdownThreadPool() {
         TASK_EXECUTOR.shutdown();
         JabRefExecutorService.INSTANCE.shutdownEverything();
     }
