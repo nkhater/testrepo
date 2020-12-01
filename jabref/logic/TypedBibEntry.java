@@ -62,4 +62,8 @@ public class TypedBibEntry {
     public void DummyMethod() {
         
     }
+
+    public void DummyMethod2() {
+        
+    }
 }
