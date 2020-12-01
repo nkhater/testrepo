@@ -58,4 +58,8 @@ public class TypedBibEntry {
             return StringUtil.capitalizeFirst(entry.getType());
         }
     }
+
+    public void DummyMethod() {
+        
+    }
 }
