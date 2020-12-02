@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
  */
 public class FallbackExceptionHandler implements Thread.UncaughtExceptionHandler {
 
+    // Logger for the exception handler
     private static final Logger LOGGER = LoggerFactory.getLogger(FallbackExceptionHandler.class);
 
     public static void installExceptionHandler() {
