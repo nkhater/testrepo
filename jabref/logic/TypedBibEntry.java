@@ -58,17 +58,17 @@ public class TypedBibEntry {
             return StringUtil.capitalizeFirst(entry.getType());
         }
     }
+
+    public void DummyMethod3() {
+        
+    }
 	
-	public void DummyMethod() {
+    public void DummyMethod() {
         
     }
 
     public void dummyFunction() {
-		//TODO add code here  
-    }
-	
-	public void DummyMethod3() {
-        
+        //TODO add code here  
     }
 
 }
