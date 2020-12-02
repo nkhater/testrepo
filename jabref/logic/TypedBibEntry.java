@@ -59,15 +59,16 @@ public class TypedBibEntry {
         }
     }
 
+    public void DummyMethod3() {
+        
+    }
+	
     public void DummyMethod() {
         
     }
 
-    public void DummyMethod2() {
-        
+    public void dummyFunction() {
+        //TODO add code here  
     }
 
-    public void DummyMethod3() {
-        
-    }
 }
