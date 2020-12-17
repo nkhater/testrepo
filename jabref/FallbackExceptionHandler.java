@@ -19,4 +19,6 @@ public class FallbackExceptionHandler implements Thread.UncaughtExceptionHandler
     public void uncaughtException(Thread thread, Throwable exception) {
         LOGGER.error("Uncaught exception occurred in " + thread, exception);
     }
+    
+    //TODO add method here
 }
