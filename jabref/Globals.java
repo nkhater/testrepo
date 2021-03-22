@@ -128,7 +128,6 @@ public class Globals {
         return fileUpdateMonitor;
     }
 
-    // TODO
     public static void shutdownThreadPool() {
         TASK_EXECUTOR.shutdown();
         JabRefExecutorService.INSTANCE.shutdownEverything();
